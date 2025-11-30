@@ -24,7 +24,7 @@ I don't like their operations. I put N-silicon, P-silicon, Metal, Via, Erase sil
 
 Importing level is now available. Import the follow code to test it.
 
-    Level;eNqrVirJzE1VsjIy0FEqV7Ky1FHKAJMFmXnFSlbR1Up5iSBpJUclHaUKoDIdpUowWVJZABQ21FFKAUoaGJSVKdXqwBU7QRSbgRWbwRQbIRSjqNYOc3ZGNh2uwQSrIjNUJ5jUxtYCAD60NKs=
+    Level;eNqrVirJzE1VsjIy0FEqV7Ky1FHKAJMFmXnFSlbR1Up5iSBpJUclHaUKoDIdpUowWVJZABQ21FFKAUoaGJSVKdXqwBU7QRSbgRWbwRQbYVesHebsjGw4XL0JVkVmqC4wqY2tBQD7NTQ1
 
 A level always begin with `Level;` to tell from a solution. Following is the level compressed by `deflate` and encoded `base64`.
 
@@ -47,7 +47,7 @@ In this example, the uncompressed level is:
                 "x": 6,
                 "y": 6,
                 "type": 2,
-                "d": "00vvv"
+                "d": "00vv"
             },
             {
                 "name": "+VCC",
@@ -76,6 +76,5 @@ Here `time` mean the simulating time length, `w` and `h` are width and height. `
   * `4` is power (typically named `+VCC`).
 * `d` describes the input/output signal:
 * * Encoded in base-32, big-endian. This makes thing more clear because it typically only changes on multiple of 5.
-  * Due to how scoring works, it's suggested to extend output 5 cycles longer at end to match scoring in original game.
  
 The game would automatically cover 3x3 metal around pins. To cusomize default circuit(or maybe if you want to share solution meanwhile), append `;` and the exported solution at end.
