@@ -13,9 +13,19 @@ Remake of KOHCTPYKTOP, Zachtronics. WIP
 * Specification
 * Bottom display detach
 
-# Why make another while there are already some remakes?
+# FAQ
+
+## Why make another while there are already some remakes?
 
 I don't like their operations. I put N-silicon, P-silicon, Metal, Via, Erase silicon and Erase Metal on (no|Ctrl|Shift) + (Left|Right) mouse, which feels at least better
+
+## Why does an empty solution on lvl 1 result `40.084%(39%)`?
+
+The original game floors the percentage multiple times. The first score is what you'll get if there's no rounding at all, and the second is what you'll get in game.
+
+## Why squish image as base64 in the HTML?
+
+Due to [security reason](https://developer.mozilla.org/en-US/docs/Web/HTML/How_to/CORS_enabled_image) and that this project is expected to run locally, it's easier to provide base64 in HTML to prove to browser that I have read access to the image file.
 
 
 ----
