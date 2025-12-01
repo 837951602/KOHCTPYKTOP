@@ -5,7 +5,7 @@ Remake of KOHCTPYKTOP, Zachtronics. WIP
 * Drawing
 * Copying&Cutting
 * Save&Load (Only support vanilla save format. It's others' responsibility to support vanilla in their remakes, not me to support theirs)
-* Different size of board (vanilla format also save size but fail to read different sizes)
+* Different size of board (vanilla format also save size<s> but fail to read different sizes </s>)
 * Simulation
 * Level format
 
@@ -27,6 +27,17 @@ The original game floors the percentage multiple times. The first score is what 
 
 Due to [security reason](https://developer.mozilla.org/en-US/docs/Web/HTML/How_to/CORS_enabled_image) and that this project is expected to run locally, it's easier to provide base64 in HTML to prove to browser that I have read access to the image file.
 
+## Why is it NOT true that vanilla support save size?
+
+Import this in Lvl 1: (Not good idea to place in FAQ though)
+
+    eNrt2lsOgjAQBVCZ2x/24BLcgEtx/xsxEUui7cxAaavArZGfY6EvRkIn3MJ1fAzj
+    fRCjdODgfNKzBUFySH6SHrr1iEwml3K4/NYb971OyEXmW43F5axWZjgsZJVjyXMs
+    gFI7unZyk2N9aBM6OdTl8LqAwrGBeX53DzBZW4ob2L5LZJ9s3/5Szk7o+VzgXcNq
+    a3YiH58DyGTy//A+wiqZTCYzrK58heDU3vQSgFNOJpPP97S6YPOJ+1NkMpnhdSUv
+    zBXgUyqZTD5tlG2dAeA0rUuCgJALWeY5NlnKEgTESRAQJUHga7vdWA5qgsDsvTMA
+    bJYjJghIqwQBESnIAOBOVh0Gh6WU57QruzaU2s61vT9hOBMKp2NTWDeaBmdYgM5j
+    jiMuJrQ6ORq0/AkiJcRw
 
 ----
 
