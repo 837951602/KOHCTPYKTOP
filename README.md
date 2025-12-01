@@ -27,7 +27,7 @@ The original game floors the percentage multiple times. The first score is what 
 
 Due to [security reason](https://developer.mozilla.org/en-US/docs/Web/HTML/How_to/CORS_enabled_image) and that this project is expected to run locally, it's easier to provide base64 in HTML to prove to browser that I have read access to the image file.
 
-## Why is it NOT true that vanilla support save size?
+## Why is it NOT true that vanilla don't support save size?
 
 Import this in Lvl 1: (Not good idea to place in FAQ though)
 
