@@ -8,8 +8,6 @@ Remake of KOHCTPYKTOP, Zachtronics. WIP
 * Different size of board (vanilla format also save size<s> but fail to read different sizes </s>)
 * Simulation
 * Level format
-
-## Todo
 * Specification
 * Bottom display detach
 
@@ -96,6 +94,6 @@ Here `time` mean the simulating time length, `w` and `h` are width and height. `
   * `3` is reserved (was for two-way pin but it's now implemented as two pins stacked together)
   * `4` is power (typically named `+VCC`).
 * `d` describes the input/output signal:
-* * Encoded in base-32, big-endian. This makes thing more clear because it typically only changes on multiple of 5.
+  * Encoded in base-32, big-endian. This makes thing more clear because it typically only changes on multiple of 5.
  
 The game would automatically cover 3x3 metal around pins. To cusomize default circuit(or maybe if you want to share solution meanwhile), append `;` and the exported solution at end.
